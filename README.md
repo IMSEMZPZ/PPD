@@ -38,3 +38,4 @@ If mex compiled successfully, you can run Dual_gap_Different_C.m, Dual_gap_Diffe
 To run the demo in MATLAB, first run mex_all in the MATLAB terminal to generate the mex file.(Note that the compiler should support c++11)
 
 If mex compiled successfully, you can run Dual_gap_Different_C.m, Dual_gap_Different_Block.m.
+![](https://github.com/IMSEMZPZ/PPD/blob/master/Different_C.jpg)
