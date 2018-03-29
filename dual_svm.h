@@ -34,8 +34,6 @@ public:
 	int calculate_max_w(const string filename, int n_sample, int n_feature, int block_size);
 
 	void fit_serial(Data& train_data);//serial
-	void fit_mini_batch(Data& train_data);//mini_batch;
-	void fit_passcode(Data& train_data);//passcode
 	void fit_cocoa(Data& train_data);//cocoa
 	void fit_parallel_SDCA(Data& train_data);//our algorithm
 

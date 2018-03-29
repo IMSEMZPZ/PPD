@@ -77,14 +77,6 @@ int main(int argc, char *argv[]) {
 		dual_svm clf1(loss, C, tol, n_epoch, verbose, n_thread, batch_size, n_block, H, gamma, use_best_gamma);
 		clf1.fit_serial(train_data);
 	}
-	else if (algo == "passcode") {
-		dual_svm clf2(loss, C, tol, n_epoch, verbose, n_thread, batch_size, n_block, H, gamma, use_best_gamma);
-		clf2.fit_passcode(train_data);
-	}
-	else if (algo == "mini_batch") {
-		dual_svm clf3(loss, C, tol, n_epoch, verbose, n_thread, batch_size, n_block, H, gamma, use_best_gamma);
-		clf3.fit_mini_batch(train_data);
-	}
 	else if (algo == "cocoa") {
 		if (gamma == 0.333) {//gamma中的0.333只是作为一个哨兵，如果po模块没有设置gamma的值，那就默认设置为设为1/n_block
 			gamma = 1.0 / (double)n_block;
