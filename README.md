@@ -1,9 +1,9 @@
-#PPD
+# PPD
 A demo for PPD 
 
 Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm
 
-##Usage
+## Usage
 
 Our code are implemented in C++ including fit_all.cpp, dual_svm.h, dual_svm.cpp, sdca_utils.h, sdca_utils.cpp, libsvm_data.h.
 
