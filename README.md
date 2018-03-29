@@ -1,7 +1,9 @@
 # PPD
 A demo for PPD 
 
-Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm
+Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm.
+
+The sparse dataset kddb.t, news20.binary, rcv1.binary are from [LIBSVM Data](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/).
 
 ## Usage
 
@@ -14,20 +16,20 @@ If compiled successfully, you can run the algorithms implemented in C++ through 
 ```
 >>>./result --help
 >>>Allowed options:
-	--help                             produce help message
-	--algo arg (=serial)               set algorithm
-	--train arg                        set training set
-	--loss arg (=L1_svm)               set loss_type(L1_svm(default),L2_svm)
-	--C arg (=0.001)                   set C(default 0.001)
-	--tol arg (=1e-10)                 set tolerance(default 1e-10)
-	--n_epoch arg (=120)               set maximum iter times(default 120)
-	--verbose arg (=1)                 set verbose(default true)
-	--n_thread arg (=4)                set number of threads(default 4)
-	--batch_size arg (=8)              set number of threads(default 8)
-	--n_block arg (=32)                set number of blocks(default 32)
-	--H arg (=10)                      set H(default 10)
-	--gamma arg (=0.33300000000000002) set gamma(default 0.3333 )
-	--use_best_gamma arg (=1)          set use_best_gamma(default false)
+   --help                             produce help message
+   --algo arg (=serial)               set algorithm
+   --train arg                        set training set
+   --loss arg (=L1_svm)               set loss_type(L1_svm(default),L2_svm)
+   --C arg (=0.001)                   set C(default 0.001)
+   --tol arg (=1e-10)                 set tolerance(default 1e-10)
+   --n_epoch arg (=120)               set maximum iter times(default 120)
+   --verbose arg (=1)                 set verbose(default true)
+   --n_thread arg (=4)                set number of threads(default 4)
+   --batch_size arg (=8)              set number of threads(default 8)
+   --n_block arg (=32)                set number of blocks(default 32)
+   --H arg (=10)                      set H(default 10)
+   --gamma arg (=0.33300000000000002) set gamma(default 0.3333 )
+   --use_best_gamma arg (=1)          set use_best_gamma(default false)
 >>>./result --algo ppd --train ./kddb.t --loss L2_svm --C 0.0001 --n_thread 32 --use_best_gamma 1
 >>>strat reading data of file: ../kddb.t
 ...
