@@ -3,7 +3,7 @@ A demo for PPD
 
 Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm.
 
-The sparse dataset kddb.t, news20.binary, rcv1.binary are from [LIBSVM Data](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/).
+The sparse dataset kddb.t, news20.binary, rcv1.binary in our demo are from [LIBSVM Data](https://www.csie.ntu.edu.tw/~cjlin/libsvmtools/datasets/).
 
 ## Usage
 
