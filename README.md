@@ -1,5 +1,6 @@
 # PPD: A Scalable and Efficient Parallel Primal-Dual Coordinate Descent Algorithm
-A demo for PPD 
+
+The offical code of PPD: A Scalable and Efficient Parallel Primal-Dual Coordinate Descent Algorithm, Hejun Wu, Xinchuan Huang, Qiong Luo, TKDE 2020.
 
 Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm.
 
