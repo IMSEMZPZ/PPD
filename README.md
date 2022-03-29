@@ -1,4 +1,4 @@
-# PPD: A Scalable and Efficient Parallel Primal-Dual Coordinate Descent Algorithm.
+# PPD: A Scalable and Efficient Parallel Primal-Dual Coordinate Descent Algorithm
 A demo for PPD 
 
 Method PPD is described in the paper: A Scalable and Efficient Parallel Dual Coordinate Descent Algorithm.
